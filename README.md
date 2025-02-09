@@ -124,7 +124,8 @@ Diagram sekuens ini menggambarkan bagaimana subjek memberi tahu observer ketika 
 
 ### **Kode CLI**
 
-[Placeholder Output Coding Observer]
+![image](https://github.com/user-attachments/assets/3850e7e3-39ef-447e-b07a-e5dec2a46553)
+
 
 
 ##
