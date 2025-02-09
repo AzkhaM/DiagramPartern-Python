@@ -12,7 +12,8 @@ Builder pattern digunakan untuk memisahkan konstruksi objek yang kompleks dari r
 
 ### **Class Diagram**
 
-![image](https://github.com/user-attachments/assets/51798ca2-d7c5-4c96-a9ee-dad2610a792f)
+![image](https://github.com/user-attachments/assets/435f0a2e-a2f8-4a3d-bc3e-7e15b65a7956)
+
 
 Diagram kelas ini menunjukkan hubungan antara kelas `HewanTernak`, `HewanTernakBuilder`, dan kelas-kelas anak seperti `Sapi`, `Kambing`, `Ayam`, dan `Unta`. `HewanTernakBuilder` bertanggung jawab untuk membangun objek `HewanTernak` dengan konfigurasi yang berbeda-beda.
 
@@ -28,7 +29,8 @@ Diagram kelas ini menunjukkan hubungan antara kelas `HewanTernak`, `HewanTernakB
 
 ### **Sequence Diagram**
 
-![image](https://github.com/user-attachments/assets/914bc7a3-82bf-48e8-8ec8-be27863a966a)
+![image](https://github.com/user-attachments/assets/d4f03448-2049-4953-ad90-a28dbf16c31c)
+
 Diagram sekuens ini menggambarkan alur interaksi antara objek-objek dalam proses pembuatan objek `HewanTernak` menggunakan builder.
 
 1.  Pengguna memasukkan data hewan.
@@ -50,8 +52,7 @@ Bridge pattern digunakan untuk memisahkan abstraksi dari implementasinya, sehing
 
 ### **Class Diagram**
 
-![image](https://github.com/user-attachments/assets/3cc4fa1b-14b7-4dac-b6d7-5e337c1d8c20)
-
+![image](https://github.com/user-attachments/assets/96cff739-a5ec-4538-bebe-386261e0d4b3)
 
 Diagram kelas ini menunjukkan bagaimana Bridge pattern memisahkan abstraksi `HewanTernak` dari implementasi spesifik untuk setiap jenis hewan (misalnya, `ImplementasiSapi`, `ImplementasiKambing`, dll.).
 
@@ -68,7 +69,8 @@ Diagram kelas ini menunjukkan bagaimana Bridge pattern memisahkan abstraksi `Hew
 
 ### **Sequence Diagram**
 
-![image](https://github.com/user-attachments/assets/25f9e65b-8106-450b-9817-143013d8582c)
+![image](https://github.com/user-attachments/assets/466f440d-e739-41db-981d-a7775789783c)
+
 Diagram sekuens ini menggambarkan bagaimana objek `HewanTernak` mendelegasikan operasi ke objek implementasi yang sesuai melalui jembatan (bridge).
 
 1.  Pengguna memasukkan data hewan.
@@ -92,7 +94,7 @@ Observer pattern digunakan ketika ada hubungan satu-ke-banyak antara objek, di m
 
 ### **Class Diagram**
 
-![image](https://github.com/user-attachments/assets/6a955736-7179-48da-9c18-82dd91e7dfd8)
+![image](https://github.com/user-attachments/assets/4289b6ee-e550-4f6a-98a3-4b59353d6656)
 
 Diagram kelas ini menunjukkan bagaimana observer (misalnya, `Peternak`, `Penjual`) mendaftarkan diri ke subjek (`HewanTernak`) dan menerima pemberitahuan ketika ada perubahan state.
 
@@ -110,7 +112,7 @@ Diagram kelas ini menunjukkan bagaimana observer (misalnya, `Peternak`, `Penjual
 
 ### **Sequence Diagram**
 
-![image](https://github.com/user-attachments/assets/a6ad90e7-8a6a-419d-8b2c-200b4514fd8f)
+![image](https://github.com/user-attachments/assets/7d02ed88-6412-4137-97d7-2020de0ca609)
 
 Diagram sekuens ini menggambarkan bagaimana subjek memberi tahu observer ketika ada perubahan state, dan bagaimana observer bereaksi terhadap pemberitahuan tersebut.
 
