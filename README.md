@@ -47,7 +47,8 @@ Diagram sekuens ini menggambarkan alur interaksi antara objek-objek dalam proses
 6.  Program menggunakan objek `HewanTernak` untuk menampilkan informasi hewan.
 7.  
 ### **Use Cse Diagram**
-![image](https://github.com/user-attachments/assets/f3c16ec8-e995-4c3e-bd89-85284bfb474f)
+![image](https://github.com/user-attachments/assets/2649becc-a4a1-4502-a238-81dc47ce1252)
+
 ### **Kode CLI**
 
 ![image](https://github.com/user-attachments/assets/b8f69d44-91e9-468b-a18f-bcb33c38771b)
@@ -97,7 +98,7 @@ Diagram sekuens ini menggambarkan bagaimana objek `HewanTernak` mendelegasikan o
 8.  Program menampilkan informasi hewan kepada pengguna.
    
 ### **Use Cse Diagram**
-![image](https://github.com/user-attachments/assets/f3c16ec8-e995-4c3e-bd89-85284bfb474f)
+![image](https://github.com/user-attachments/assets/419a9c23-b871-4930-97dd-cb61b0be7d7e)
 
 ### **Kode CLI**
 
@@ -147,7 +148,7 @@ Diagram sekuens ini menggambarkan bagaimana subjek memberi tahu observer ketika 
 7.  Observer menerima pemberitahuan dan bereaksi sesuai dengan logikanya.
 
 ### **Use Cse Diagram**
-![image](https://github.com/user-attachments/assets/c6fa9290-6ec4-43e2-9938-18e04b896d15)
+![image](https://github.com/user-attachments/assets/a1398f10-0436-4923-a5e4-bdc7ed1da782)
 
 ### **Kode CLI**
 
