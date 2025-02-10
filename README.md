@@ -1,4 +1,4 @@
-## **Laporan Design Pattern**
+![image](https://github.com/user-attachments/assets/5ae1f899-ef18-4498-9baf-c9e337187bfb)## **Laporan Design Pattern**
 
 ## **Penjelasan Design Pattern**
 
@@ -10,9 +10,12 @@ Design pattern adalah solusi umum yang dapat digunakan kembali untuk masalah des
 
 Builder pattern digunakan untuk memisahkan konstruksi objek yang kompleks dari representasinya, sehingga proses pembuatan objek dapat dikontrol dan lebih fleksibel. Builder sangat berguna ketika sebuah objek memiliki banyak parameter opsional atau ketika proses pembuatannya melibatkan langkah-langkah yang rumit.
 
-## **ILUSTRASI**
+### **ILUSTRASI**
 ![image](https://github.com/user-attachments/assets/8f8be467-85e9-4dea-a6f2-482504d53664)
 
+### **Stuktur Creational Building Pattern**
+![image](https://github.com/user-attachments/assets/096d0399-24d8-40c2-8daf-5aaec5302e59)
+ 
 ### **Class Diagram**
 
 ![image](https://github.com/user-attachments/assets/435f0a2e-a2f8-4a3d-bc3e-7e15b65a7956)
@@ -57,6 +60,9 @@ Bridge pattern digunakan untuk memisahkan abstraksi dari implementasinya, sehing
 
 ## **ILUSTRASI**
 ![image](https://github.com/user-attachments/assets/e01847b5-f161-4ea4-9168-fdabeb3bbb38)
+
+### **Stuktur Creational Building Pattern**
+![image](https://github.com/user-attachments/assets/695f3057-cb5b-47ba-9519-4c1e6f5de652)
 
 ### **Class Diagram**
 
@@ -106,8 +112,10 @@ Observer pattern digunakan ketika ada hubungan satu-ke-banyak antara objek, di m
 ## **ILUSTRASI**
 ![image](https://github.com/user-attachments/assets/f2d72f2b-d973-42e6-8f5b-3d3bb1a3ac9a)
 
-### **Class Diagram**
+### **Stuktur Creational Building Pattern**
+![image](https://github.com/user-attachments/assets/46ff1632-d763-45f9-a44d-4bcca186e22d)
 
+### **Class Diagram**
 ![image](https://github.com/user-attachments/assets/4289b6ee-e550-4f6a-98a3-4b59353d6656)
 
 Diagram kelas ini menunjukkan bagaimana observer (misalnya, `Peternak`, `Penjual`) mendaftarkan diri ke subjek (`HewanTernak`) dan menerima pemberitahuan ketika ada perubahan state.
