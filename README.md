@@ -10,6 +10,9 @@ Design pattern adalah solusi umum yang dapat digunakan kembali untuk masalah des
 
 Builder pattern digunakan untuk memisahkan konstruksi objek yang kompleks dari representasinya, sehingga proses pembuatan objek dapat dikontrol dan lebih fleksibel. Builder sangat berguna ketika sebuah objek memiliki banyak parameter opsional atau ketika proses pembuatannya melibatkan langkah-langkah yang rumit.
 
+## **ILUSTRASI**
+![image](https://github.com/user-attachments/assets/8f8be467-85e9-4dea-a6f2-482504d53664)
+
 ### **Class Diagram**
 
 ![image](https://github.com/user-attachments/assets/435f0a2e-a2f8-4a3d-bc3e-7e15b65a7956)
@@ -39,7 +42,9 @@ Diagram sekuens ini menggambarkan alur interaksi antara objek-objek dalam proses
 4.  Kelas anak memanggil method-method pada `HewanTernakBuilder` untuk mengatur atribut-atribut `HewanTernak`.
 5.  Kelas anak memanggil method `bangun()` pada `HewanTernakBuilder` untuk menghasilkan objek `HewanTernak`.
 6.  Program menggunakan objek `HewanTernak` untuk menampilkan informasi hewan.
-
+7.  
+### **Use Cse Diagram**
+![image](https://github.com/user-attachments/assets/f3c16ec8-e995-4c3e-bd89-85284bfb474f)
 ### **Kode CLI**
 
 ![image](https://github.com/user-attachments/assets/b8f69d44-91e9-468b-a18f-bcb33c38771b)
@@ -49,6 +54,9 @@ Diagram sekuens ini menggambarkan alur interaksi antara objek-objek dalam proses
 ### **Penjelasan**
 
 Bridge pattern digunakan untuk memisahkan abstraksi dari implementasinya, sehingga keduanya dapat berubah secara independen. Bridge sangat berguna ketika Anda memiliki hierarki kelas yang kompleks dan ingin menghindari ketergantungan yang kuat antara abstraksi dan implementasi.
+
+## **ILUSTRASI**
+![image](https://github.com/user-attachments/assets/e01847b5-f161-4ea4-9168-fdabeb3bbb38)
 
 ### **Class Diagram**
 
@@ -81,6 +89,9 @@ Diagram sekuens ini menggambarkan bagaimana objek `HewanTernak` mendelegasikan o
 6.  Kelas implementasi menjalankan operasi yang sesuai dan mengembalikan hasilnya ke `HewanTernak`.
 7.  `HewanTernak` mengembalikan hasil ke program.
 8.  Program menampilkan informasi hewan kepada pengguna.
+   
+### **Use Cse Diagram**
+![image](https://github.com/user-attachments/assets/f3c16ec8-e995-4c3e-bd89-85284bfb474f)
 
 ### **Kode CLI**
 
@@ -91,6 +102,9 @@ Diagram sekuens ini menggambarkan bagaimana objek `HewanTernak` mendelegasikan o
 ### **Penjelasan**
 
 Observer pattern digunakan ketika ada hubungan satu-ke-banyak antara objek, di mana satu objek (subjek) memiliki banyak objek dependen (observer) yang perlu diberi tahu ketika subjek mengalami perubahan state. Observer memungkinkan objek-objek ini untuk "mengamati" subjek dan bereaksi terhadap perubahan tersebut.
+
+## **ILUSTRASI**
+![image](https://github.com/user-attachments/assets/f2d72f2b-d973-42e6-8f5b-3d3bb1a3ac9a)
 
 ### **Class Diagram**
 
@@ -123,6 +137,9 @@ Diagram sekuens ini menggambarkan bagaimana subjek memberi tahu observer ketika 
 5.  Ketika state `HewanTernak` berubah (misalnya, berat hewan berubah), `HewanTernak` memanggil method `notify_observers()`.
 6.  `HewanTernak` memberi tahu semua observer dengan memanggil method `update()` pada masing-masing observer.
 7.  Observer menerima pemberitahuan dan bereaksi sesuai dengan logikanya.
+
+### **Use Cse Diagram**
+![image](https://github.com/user-attachments/assets/c6fa9290-6ec4-43e2-9938-18e04b896d15)
 
 ### **Kode CLI**
 
