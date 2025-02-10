@@ -5,11 +5,8 @@
 Design pattern adalah solusi umum yang dapat digunakan kembali untuk masalah desain yang umum terjadi dalam pengembangan perangkat lunak. Pola-pola ini merupakan praktik terbaik yang telah teruji dan terbukti efektif dalam memecahkan masalah desain tertentu.
 
 ### **Penjelasan**
-
-Builder pattern digunakan untuk memisahkan konstruksi objek yang kompleks dari representasinya, sehingga proses pembuatan objek dapat dikontrol dan lebih fleksibel. Builder sangat berguna ketika sebuah objek memiliki banyak parameter opsional atau ketika proses pembuatannya melibatkan langkah-langkah yang rumit.
-
 ## **Design Pattern Creational: Builder**
-![image](https://github.com/user-attachments/assets/5ae1f899-ef18-4498-9baf-c9e337187bfb)
+Builder pattern digunakan untuk memisahkan konstruksi objek yang kompleks dari representasinya, sehingga proses pembuatan objek dapat dikontrol dan lebih fleksibel. Builder sangat berguna ketika sebuah objek memiliki banyak parameter opsional atau ketika proses pembuatannya melibatkan langkah-langkah yang rumit.
 
 ### **ILUSTRASI**
 ![image](https://github.com/user-attachments/assets/8f8be467-85e9-4dea-a6f2-482504d53664)
@@ -59,9 +56,6 @@ Diagram sekuens ini menggambarkan alur interaksi antara objek-objek dalam proses
 ### **Penjelasan**
 
 Bridge pattern digunakan untuk memisahkan abstraksi dari implementasinya, sehingga keduanya dapat berubah secara independen. Bridge sangat berguna ketika Anda memiliki hierarki kelas yang kompleks dan ingin menghindari ketergantungan yang kuat antara abstraksi dan implementasi.
-
-## **Design Pattern Structural: Bridge**
-![image](https://github.com/user-attachments/assets/eee9c998-b5b7-4389-944f-f498c34285ce)
 
 ## **ILUSTRASI**
 ![image](https://github.com/user-attachments/assets/e01847b5-f161-4ea4-9168-fdabeb3bbb38)
@@ -113,9 +107,6 @@ Diagram sekuens ini menggambarkan bagaimana objek `HewanTernak` mendelegasikan o
 ### **Penjelasan**
 
 Observer pattern digunakan ketika ada hubungan satu-ke-banyak antara objek, di mana satu objek (subjek) memiliki banyak objek dependen (observer) yang perlu diberi tahu ketika subjek mengalami perubahan state. Observer memungkinkan objek-objek ini untuk "mengamati" subjek dan bereaksi terhadap perubahan tersebut.
-
-## **Design Pattern Behavioral: Observer**
-![image](https://github.com/user-attachments/assets/d1840f99-2191-46fb-a98e-88ed40c1816f)
 
 ## **ILUSTRASI**
 ![image](https://github.com/user-attachments/assets/f2d72f2b-d973-42e6-8f5b-3d3bb1a3ac9a)
