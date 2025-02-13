@@ -21,7 +21,7 @@ Pola Builder memisahkan konstruksi suatu objek kompleks dari representasinya seh
 
 Contoh struktur ini adalah sebuah contoh pengimplementasian Building pattern yang dimana contoh struktur ini dapat menjadi acuan untuh pembuatan pattern building yang dimana pada gambar ini Reader mengenkapsulasi proses parsing dari input yang umum. Hierarki Builder memungkinkan pembuatan polimorfik dari berbagai representasi atau target yang spesifik. Berikut adalah pengimplementasian dari struktur ke dalam code yang di buat:
 
-![image](https://github.com/user-attachments/assets/58039e81-aa63-474e-8af8-1c8718c0c8e4)
+![image](https://github.com/user-attachments/assets/16cc90fa-4495-41d5-8121-45e20528bb7a)
 
 Kesamaan antara class **`Reader`** dengan sourcode **`HewanTernakBuilder`** yaitu keduanya adalah wadah yang nantinya akan membaca pesanan atau order dari user, maka wadah tersebut akan menyesuaikan sesuai dengan request dari user
 
