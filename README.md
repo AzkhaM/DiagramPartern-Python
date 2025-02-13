@@ -140,14 +140,14 @@ Diagram sekuens ini menggambarkan alur interaksi antara objek-objek dalam proses
 Bridge pattern digunakan untuk memisahkan abstraksi dari implementasinya, sehingga keduanya dapat berubah secara independen. Bridge sangat berguna ketika Anda memiliki hierarki kelas yang kompleks dan ingin menghindari ketergantungan yang kuat antara abstraksi dan implementasi.
 
 ## **ILUSTRASI**
-![image](https://github.com/user-attachments/assets/e01847b5-f161-4ea4-9168-fdabeb3bbb38)
+
 
 ### **Stuktur Creational Building Pattern**
-![image](https://github.com/user-attachments/assets/695f3057-cb5b-47ba-9519-4c1e6f5de652)
+
 
 ### **Class Diagram**
 
-![image](https://github.com/user-attachments/assets/96cff739-a5ec-4538-bebe-386261e0d4b3)
+
 
 Diagram kelas ini menunjukkan bagaimana Bridge pattern memisahkan abstraksi `HewanTernak` dari implementasi spesifik untuk setiap jenis hewan (misalnya, `ImplementasiSapi`, `ImplementasiKambing`, dll.).
 
@@ -164,7 +164,7 @@ Diagram kelas ini menunjukkan bagaimana Bridge pattern memisahkan abstraksi `Hew
 
 ### **Sequence Diagram**
 
-![image](https://github.com/user-attachments/assets/466f440d-e739-41db-981d-a7775789783c)
+
 
 Diagram sekuens ini menggambarkan bagaimana objek `HewanTernak` mendelegasikan operasi ke objek implementasi yang sesuai melalui jembatan (bridge).
 
@@ -178,11 +178,11 @@ Diagram sekuens ini menggambarkan bagaimana objek `HewanTernak` mendelegasikan o
 8.  Program menampilkan informasi hewan kepada pengguna.
    
 ### **Use Cse Diagram**
-![image](https://github.com/user-attachments/assets/5eea2edc-5f59-48c3-befa-7e91685aa441)
+
 
 ### **Kode CLI**
 
-![image](https://github.com/user-attachments/assets/59e74da3-23e3-4743-9e24-4fe83db04190)
+
 
 ## **Design Pattern Behavioral: Observer**
 
@@ -191,13 +191,13 @@ Diagram sekuens ini menggambarkan bagaimana objek `HewanTernak` mendelegasikan o
 Observer pattern digunakan ketika ada hubungan satu-ke-banyak antara objek, di mana satu objek (subjek) memiliki banyak objek dependen (observer) yang perlu diberi tahu ketika subjek mengalami perubahan state. Observer memungkinkan objek-objek ini untuk "mengamati" subjek dan bereaksi terhadap perubahan tersebut.
 
 ## **ILUSTRASI**
-![image](https://github.com/user-attachments/assets/f2d72f2b-d973-42e6-8f5b-3d3bb1a3ac9a)
+
 
 ### **Stuktur Creational Building Pattern**
-![image](https://github.com/user-attachments/assets/46ff1632-d763-45f9-a44d-4bcca186e22d)
+
 
 ### **Class Diagram**
-![image](https://github.com/user-attachments/assets/4289b6ee-e550-4f6a-98a3-4b59353d6656)
+
 
 Diagram kelas ini menunjukkan bagaimana observer (misalnya, `Peternak`, `Penjual`) mendaftarkan diri ke subjek (`HewanTernak`) dan menerima pemberitahuan ketika ada perubahan state.
 
@@ -215,7 +215,7 @@ Diagram kelas ini menunjukkan bagaimana observer (misalnya, `Peternak`, `Penjual
 
 ### **Sequence Diagram**
 
-![image](https://github.com/user-attachments/assets/7d02ed88-6412-4137-97d7-2020de0ca609)
+
 
 Diagram sekuens ini menggambarkan bagaimana subjek memberi tahu observer ketika ada perubahan state, dan bagaimana observer bereaksi terhadap pemberitahuan tersebut.
 
@@ -228,12 +228,12 @@ Diagram sekuens ini menggambarkan bagaimana subjek memberi tahu observer ketika 
 7.  Observer menerima pemberitahuan dan bereaksi sesuai dengan logikanya.
 
 ### **Use Cse Diagram**
-![image](https://github.com/user-attachments/assets/26933f99-9022-4941-a5fc-537a944e007a)
+
 
 ### **Kode CLI**
 
-![image](https://github.com/user-attachments/assets/3850e7e3-39ef-447e-b07a-e5dec2a46553)
 
 
 
-##
+
+
