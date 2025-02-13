@@ -115,7 +115,7 @@ Penggunaan pola Builder melalui `HewanTernakBuilder` memastikan bahwa logika pem
 
 ### **Sequence Diagram**
 
-![image](https://github.com/user-attachments/assets/d4f03448-2049-4953-ad90-a28dbf16c31c)
+![image](https://github.com/user-attachments/assets/7ce5aac3-17fe-47d0-8b03-3749b8b6e6ce)
 
 Diagram sekuens ini menggambarkan alur interaksi antara objek-objek dalam proses pembuatan objek `HewanTernak` menggunakan builder.
 
