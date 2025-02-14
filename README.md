@@ -65,8 +65,6 @@ Kesamaan antara class **`PostScriptConverter`**, **`ASCIIConverter`**, dan **`PD
      - **Reuse:** Menghindari pengulangan kode karena logika dasar didefinisikan hanya di `HewanTernak`.  
      - **Pemeliharaan:** Perubahan pada metode atau atribut dasar di `HewanTernak` akan otomatis mempengaruhi semua subclass.
 
----
-
 ## Hubungan Antar Kelas
 
 1. **Hubungan antara HewanTernakBuilder dan HewanTernak**  
@@ -99,8 +97,6 @@ Kesamaan antara class **`PostScriptConverter`**, **`ASCIIConverter`**, dan **`PD
    - **Simplisitas dan Keterbacaan:**  
      - Hubungan yang jelas antara builder dan kelas dasar serta inheritance antar subclass menjaga agar diagram tetap simpel dan mudah dipahami, dengan setiap kelas hanya menunjuk langsung pada satu kelas terkait (misalnya, subclass menunjuk ke induk).
 
----
-
 ## Dampak Jika Kelas Builder Dihilangkan
 
 Tanpa adanya `HewanTernakBuilder`:
@@ -132,6 +128,8 @@ Diagram sekuens ini menggambarkan alur interaksi antara objek-objek dalam proses
 ### **Kode CLI**
 
 ![image](https://github.com/user-attachments/assets/b8f69d44-91e9-468b-a18f-bcb33c38771b)
+
+---
 
 ## **Design Pattern Structural: Bridge**
 
@@ -283,6 +281,7 @@ Diagram sekuens ini menggambarkan bagaimana objek `HewanTernak` mendelegasikan o
 ### **Kode CLI**
 ![image](https://github.com/user-attachments/assets/b8f69d44-91e9-468b-a18f-bcb33c38771b)
 
+---
 
 ## **Design Pattern Behavioral: Observer**
 
